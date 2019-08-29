@@ -1,35 +1,8 @@
-
-$primary-color:  #faebd7;
-$secondary-color: #139dd4;
-$border-main: 1px solid #726c6c;
-$border-second: 1px dashed #cccccc;
-$font-main: Helvetica, sans-serif;
-$font-secons: serif;
-$text-color-h: #FFFFFF;
-$text-color-p: #c9b505;
-
 .page {
-    background-color:$primary-color;
-    border: $border-main;
-    
-
-    .h1 {
-        border: $border-second;
-        font-family: $font-main;
-        color: $text-color-h;
-        background-color: $secondary-color;
-        padding: 20px;
-    };
-
-    p {
-        font-family: $font-secons;
-        color: $text-color-p;
-    };
-
-    .sidebar {
-        background-color: $secondary-color;
-        color: $text-color-p;
-        border:$border-second; 
-        padding: 30px;
-    }
+	background-color: #cccccc;
+	
+}
+.sidebar {
+	background-color: brown;
+	border: 2px solid #cccccc;
 }
