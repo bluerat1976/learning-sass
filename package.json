@@ -1,0 +1,24 @@
+{
+  "name": "learning-sass",
+  "version": "1.0.0",
+  "description": "Learning SASS",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass --output-style compressed index.scss > styles.css",
+    "scss:watch": "node-sass -w --output-style compressed index.scss > styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluerat1976/learning-sass.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bluerat1976/learning-sass/issues"
+  },
+  "homepage": "https://github.com/bluerat1976/learning-sass#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
